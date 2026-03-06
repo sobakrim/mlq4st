@@ -23,8 +23,6 @@
   - `U = F_{Y|X}(y)`
   - `Z = Phi^{-1}(U)`  (Phi = standard normal CDF)
 - **Spatio-temporal dependence** in latent space with GRFs (e.g., Matérn–Gneiting)
-- End-to-end **fit → simulate → invert** workflow:
-  - fit marginals → map `Y -> Z` → fit GRF → simulate `Z` → map `Z -> Y`
 - Optional hyperparameter selection via time-series cross-validation (depending on method)
 
 ---
